@@ -67,6 +67,7 @@ expandOneTests =
   [ expandOne (rules triangle) (axiom triangle) --> "-M+M-M-M+M"
   , expandOne [('A', "B")] "A"                  --> "B"
   ]
+  
 
 expandTests :: [Assertion]
 expandTests =
